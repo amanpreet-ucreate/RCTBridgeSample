@@ -9,6 +9,6 @@ class MainActivity : ReactActivity() {
      * This is used to schedule rendering of the component.
      */
     override fun getMainComponentName(): String? {
-        return "RCTBridgeSample"
+        return "react-native-bridge-testing"
     }
 }

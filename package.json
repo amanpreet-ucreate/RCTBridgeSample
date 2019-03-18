@@ -1,6 +1,6 @@
 {
-  "name": "RCTBridgeSample",
-  "version": "0.0.1",
+  "name": "react-native-bridge-testing",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.0",
+    "react-native": "0.59.1",
     "react-native-create-bridge": "^2.0.1"
   },
   "devDependencies": {
