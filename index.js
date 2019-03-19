@@ -1,10 +1,6 @@
-/**
- * @format
- */
 
-import { AppRegistry } from 'react-native';
-import App from './App';
-import { name as appName } from './app.json';
-import RCTNativeModule from './src/RCTBridgeSumNativeModule';
+import { NativeModules } from 'react-native';
 
-AppRegistry.registerComponent(appName, () => RCTNativeModule);
+const { RNReactBridgeTesting } = NativeModules;
+
+export default RNReactBridgeTesting;
